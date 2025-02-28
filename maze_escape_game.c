@@ -104,13 +104,13 @@ int main() {
 
     // Ensure the maze size is not smaller than the minimum
     if (rows < MIN_SIZE || cols < MIN_SIZE) {
-        printf("Maze size is too small.\n Setting to minimum size of %d x %d.\n", MIN_SIZE, MIN_SIZE);
+        printf("Maze size is too small.\nSetting to minimum size of %d x %d.\n", MIN_SIZE, MIN_SIZE);
         rows = MIN_SIZE;
         cols = MIN_SIZE;
     }
 
     if (rows > MAX_SIZE || cols > MAX_SIZE) {
-        printf("Maze size is to large.\n Setting to maximum size od %d x %d.\n", MAX_SIZE, MAX_SIZE);
+        printf("Maze size is to large.\nSetting to maximum size of %d x %d.\n", MAX_SIZE, MAX_SIZE);
         rows = MAX_SIZE;
         cols = MAX_SIZE;
 
